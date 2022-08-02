@@ -32,11 +32,11 @@ jobs:
 
     - name: Connect Ngrok.
 
-      run: .\ngrok\ngrok.exe authtoken $Env:NGROK_AUTH_TOKEN
+      run: .\ngrok\ngrok.exe authtoken 2CZoMf37VR2PWqjMwe1GYbZp0HA_4EQQ2Wkg6wsD1EuiD482y
 
       env:
 
-        NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
+        NGROK_AUTH_TOKEN: 2CZoMf37VR2PWqjMwe1GYbZp0HA_4EQQ2Wkg6wsD1EuiD482y
 
     - name: Windows10 RDP.
 
